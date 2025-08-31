@@ -1,2 +1,5 @@
 #ignorar objetos
 *.o
+*.pdf
+
+#ignorar guias
