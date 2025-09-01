@@ -1,18 +1,18 @@
 
 CC = gcc 
-CFLAGS = -Wall -Wextra -pedantic
-TARGET = hola #nombre del binario
+CFLAGS = -Wall -Wextra -pedantic -g
+TARGET = Ej19 #nombre del binario
 
 all: $(TARGET)
 
-$(TARGET): hola.o
+$(TARGET): Ej19.o
 	$(CC) $(CFLAGS) $^ -o $@
 
-hola.o: hola.c
-	$(CC) $(CFLAGS) -c $^ -o hola.o
+Ej19.o: Ej19.c
+	$(CC) $(CFLAGS) -c $^ -o Ej19.o
 
 clean:
-	rm *.o hola
+	rm *.o Ej19
 
 .PHONY: all clean
 

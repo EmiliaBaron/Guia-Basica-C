@@ -2,4 +2,5 @@
 *.o
 *.pdf
 
-#ignorar guias
+#ignorar carpetas
+../Codigos_Puesta_Comun_1/
