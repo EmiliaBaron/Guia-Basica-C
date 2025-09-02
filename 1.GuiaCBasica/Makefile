@@ -12,7 +12,7 @@ Ej19.o: Ej19.c
 	$(CC) $(CFLAGS) -c $^ -o Ej19.o
 
 clean:
-	rm *.o Ej19
+	rm *.o $(TARGET)
 
 .PHONY: all clean
 
